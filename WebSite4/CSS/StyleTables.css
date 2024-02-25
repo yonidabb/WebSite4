@@ -1,0 +1,56 @@
+﻿/* עיצוב טבלה אשר תופי בדפי היאנטרנט בפרויקט ...*/
+body {
+    background-color: aqua
+}
+table, td, th {
+    border: 7px solid black;
+    border-collapse: collapse;
+}
+table{
+    width:60%;
+    height: 300px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.whiteTd {
+    background-color:white;
+}
+.goldTd {
+    background-color:gold;
+}
+hr {
+    border: 3px solid red;
+}
+h1 {
+    text-align: center;
+    font-family: 'Agency FB';
+    color: green;
+    font-size: 80px;
+}
+
+/* עיצוב פסקה הנמצאת בכל דף בפרויקט ... */
+.p1 {
+    font-family:'Agency FB';
+    font-size:25px;
+    direction:rtl;
+    color:black;
+    background-color:burlywood;
+}
+
+.p2 {
+    font-family: 'Agency FB';
+    font-size: 15px;
+    direction: rtl;
+    color: black;
+    background-color:deepskyblue;
+}
+
+#div1 {
+    text-align: center;
+    background-color: cadetblue;
+    border: 8px solid black;
+    font-family: 'Agency FB';
+    font-size: 35px;
+    direction: rtl;
+} 
+
